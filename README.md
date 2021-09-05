@@ -10,15 +10,15 @@
  ![About Me Section](./assets/images/challenge-2-about-me.png)
 
  ## My Services
- ![My Services Section](.assets/images/challenge-2-services.png)
+ ![My Services Section](./assets/images/challenge-2-services.png)
 
  ## My Projects
- ![My Projects Section](.assets/images/challenge-2-projects.png)
+ ![My Projects Section](./assets/images/challenge-2-projects.png)
 
-![My Projects Continued](.assets/images/challenge-2-projects-cont.png)
+![My Projects Continued](./assets/images/challenge-2-projects-cont.png)
 
 ## Contact Me
-![Contact Me Section](.assets/images/challenge-2-contact-me.png)
+![Contact Me Section](./assets/images/challenge-2-contact-me.png)
 
 ### Click here to view my portfolio: https://jamwil1226.github.io/Challenge-2/
 
