@@ -147,25 +147,22 @@ header nav ul li a:hover {
 }
 
 .about-me-body {
-    width: 35%;
-    text-align: left;
-    margin: 3.5%;
+    font-size: 20px;
+    padding: 0 30px;
     color: var(--primary-color);
-    font-size: 18px;
-    line-height: 1.2;
-    float: right;
 }
 
 .about-me-image {
-    border: 3px solid var(--secondary-color);
-    background-color: var(--primary-color);
-    padding: 20px;
-    margin: 10px 50px;
+    max-width: 100%;
+    flex-basis: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-    float: left;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .services {
     background: var(--tertiary-color);
 }
@@ -173,15 +170,11 @@ header nav ul li a:hover {
 .service {
     margin: 50px auto;
     padding-bottom: 10px;
-    width: 70%;
+    width: 40%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-}
-
-.service:last-child {
-    border-bottom: none;
 }
 
 .service h3 {
@@ -190,29 +183,10 @@ header nav ul li a:hover {
     flex: 1 30%;
 }
 
-.service-info {
-    flex: 2 70%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
 .service-img {
-    flex: 1 12%;
-    margin-right: 20px;
-}
-
-.service-img img {
-    max-width: 100%;
-}
-
-.service-text {
-    flex: 12;
-}
-
-.service-text p {
-    color: var(--pro-color);
-    font-size: 18px;
+    max-width: 40%;
+    flex-basis: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .projects {
@@ -228,6 +202,10 @@ header nav ul li a:hover {
     background: var(--tertiary-color);
     color: var(--primary-color);
     flex: 1;
+}
+
+.project-name h3 {
+    font-size: 100px;
 }
 
  .project-main {
