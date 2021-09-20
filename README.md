@@ -20,7 +20,7 @@
 ## Contact Me
 ![Contact Me Section](./assets/images/challenge-2-contact-me.png)
 
-### Click here to view my portfolio: https://jamwil1226.github.io/jamie-williams-portfolio/
+### Click here to view my portfolio: https://jamwil1226.github.io/Jamie-Williams-Portfolio/
 
 ### All feedback is welcome!
 
