@@ -101,7 +101,7 @@ header nav ul li a:hover {
 }
 
 .section-subtitle {
-    margin: 0;
+    margin: 50px;
     font-size: smaller;
 }
 
@@ -114,32 +114,14 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background-image: url("./assets/images/background-image-project.png") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+   
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
 }
 
-.hero-intro {
-    width: 35%;
-    text-align: right;
-    margin: 3.5%;
-    color: #fff;
-    font-size: 18px;
-    line-height: 1.2;
-}
-
 .hero-image {
-    border: 3px solid var(--secondary-color);
-    background-color: var(--primary-color);
-    padding: 20px;
-    margin: 3.5%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
+    max-width: 75%;
 }
 
 .about-me-body {
@@ -149,7 +131,6 @@ header nav ul li a:hover {
 }
 
 .about-me-image {
-    border-radius: 15px;
     max-width: 60%;
     margin-left: 100px;
     margin-top: 50px;

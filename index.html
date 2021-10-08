@@ -7,12 +7,21 @@
     <title>Jamie Williams' Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"/>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <style>
+        .hero {
+            background-image: url("./assets/images/background-image-project.png"); 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
     <!-- navigation -->
     <header>
         <h1>
-            <a href="/"><strong>Jamie Williams' Portfolio</strong></a>
+            <a href=""><strong>Jamie Williams' Portfolio</strong></a>
         </h1>
         <nav>
             <!-- Unordered list element -->
@@ -37,22 +46,25 @@
     <!-- end navigation -->
     
     <!-- hero section starts  -->
+<section class="hero">
     <div class="columns">
-        <div class="hero">
-            <div class="column">
-                <h1 class="section-title section-title-intro">
+        <div class="column">
+            <h1 class="section-title section-title-intro">
                 <br>
                 <strong>Jamie Williams</strong>
-                </h1>
-                <p class="section-subtitle section-subtitle-intro">Web Developer</p> 
-            </div>
-            <div class="column">
-                <div class="hero-image">
-                    <img src="./assets/images/jamie-headshot.png" alt="Headshot of Jamie smiling." class="intro-image">
-                </div>
-            </div>
+            </h1>
+            <p class="section-subtitle section-subtitle-intro">Web Developer</p> 
         </div>
+        
+        <div class="column">
+            <div class="hero-image">
+                <figure class="image is-128by128">
+                    <img class="intro-image is-rounded is-centered" src="./assets/images/jamie-headshot.png" alt="Headshot of Jamie smiling.">
+                </figure>        
+            </div>
+        </div>        
     </div>
+</section>
     <!-- end introduction -->
 
     <!-- About Me -->
@@ -69,13 +81,17 @@
         <div class="column is-4">
             <div class="about-me-image is-centered">
                 <figure class="image is-64by64">
-                    <img class="is-rounded is-centered" src="./assets/images/jamie-about-me-resized.png">
+                    <img class="is-rounded is-centered" src="./assets/images/jamie-about-me-resized.png" alt="Headshot of Jamie.">
                   </figure>
             </div>
         </div>
         <div class="column is-8">
             <div class="about-me-body">
-                <p>Combining my love for design and technology with my natural creative personality, web development is a perfect fit. In 2014, I started a non-profit organization to donate teddy bears to children in the hospital and needed a website. I decided to learn how to build a website on my own and discovered then my passion for web development. Several years later, I built a website to house a travel blog for my cross-country travels. The following year, I created a website to turn my then physical therapy career into a way of helping the elderly stay safe at home and reduce their fall risk. </p>
+                <p>Combining my love for design and technology with my organizational skills and attention to detail, web development is a perfect fit. 
+                    In 2014, I started a non-profit organization to donate teddy bears to children in the hospital and needed a website. 
+                    I decided to learn how to build a website on my own and discovered then my passion for web development. Several years later, 
+                    I built a website to house a travel blog for my cross-country travels. The following year, I created a website to turn my then physical 
+                    therapy career into a way of helping the elderly stay safe at home and reduce their fall risk. </p>
                 <br>
                 <p>I am hard-working, reliable, and pride myself on my organizational and communicational skills. I am very goal-oriented and excel in working with a team to achieve a successful outcome while meeting deadlines.</p>
                 <br>
