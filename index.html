@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./assets/css/style.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jamie Williams' Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
     <!-- navigation -->
@@ -36,151 +37,223 @@
     <!-- end navigation -->
     
     <!-- hero section starts  -->
-    <section class="hero">
-
-        <div class="hero-intro">
-            <h1 class="section-title section-title-intro">
+    <div class="columns">
+        <div class="hero">
+            <div class="column">
+                <h1 class="section-title section-title-intro">
                 <br>
                 <strong>Jamie Williams</strong>
-            </h1>
-            <p class="section-subtitle section-subtitle-intro">Web Developer</p>
+                </h1>
+                <p class="section-subtitle section-subtitle-intro">Web Developer</p> 
+            </div>
+            <div class="column">
+                <div class="hero-image">
+                    <img src="./assets/images/jamie-headshot.png" alt="Headshot of Jamie smiling." class="intro-image">
+                </div>
+            </div>
         </div>
-        <div class="hero-image">
-            <img src="./assets/images/jamie-headshot.png" alt="Headshot of Jamie smiling." class="intro-image">
-        </div>
-    </section>
+    </div>
     <!-- end introduction -->
 
     <!-- About Me -->
-    <section id="about-me" class="about-me">
-        <div class="flex-row">
-            <h2 class="section-title secondary-border">
-                About Me
-            </h2>
-        </div>
-        <div class="container">
-            <div class="about-me-image">
-                <img src="./assets/images/jamie-about-me.png" alt="Headshot of Jamie smiling.">
+    <div class="column">
+        <section id="about-me" class="about-me">
+            <div class="flex-row">
+                <h2 class="section-title secondary-border">
+                    About Me
+                </h2>
             </div>
+        </section>
+    </div>
+    <div class="columns">
+        <div class="column is-4">
+            <div class="about-me-image is-centered">
+                <figure class="image is-64by64">
+                    <img class="is-rounded is-centered" src="./assets/images/jamie-about-me-resized.png">
+                  </figure>
+            </div>
+        </div>
+        <div class="column is-8">
             <div class="about-me-body">
                 <p>Combining my love for design and technology with my natural creative personality, web development is a perfect fit. In 2014, I started a non-profit organization to donate teddy bears to children in the hospital and needed a website. I decided to learn how to build a website on my own and discovered then my passion for web development. Several years later, I built a website to house a travel blog for my cross-country travels. The following year, I created a website to turn my then physical therapy career into a way of helping the elderly stay safe at home and reduce their fall risk. </p>
                 <br>
                 <p>I am hard-working, reliable, and pride myself on my organizational and communicational skills. I am very goal-oriented and excel in working with a team to achieve a successful outcome while meeting deadlines.</p>
                 <br>
                 <p>I would love an opportunity to tell you more about myself and answer any questions that you may have. I am actively looking for a web development position and would appreciate the opportunity to connect with you! </p>
-            </div>
-        </div>       
-    </section>
+            </div>  
+        </div>
+    </div>
     <!-- end About Me -->
 
     <!-- My Services -->
-    <section id="my-services" class="services">
-        <div class="flex-row">
-            <h2 class="section-title secondary-border">
-                My Services
-            </h2>
-        </div>
-        
+    <div class="column">
+        <section id="my-services" class="services">
+            <div class="flex-row">
+                <h2 class="section-title secondary-border">
+                    My Services
+                </h2>
+            </div>
+        </section>
+    </div>
+    <div class="columns has-text-centered">
+        <div class="column">
             <div class="service">
                 <h3>HTML</h3>
-                    <div class="service-img">
-                        <img src="./assets/images/html-logo.png" alt="" />
-                    </div>
-            </div>        
+                <div class="service-img">
+                    <img src="./assets/images/html-logo.png" alt="" />
+                </div>
+            </div> 
+        </div>       
 
+        <div class="column">
             <div class="service">
                 <h3>CSS</h3>
-                    <div class="service-img">
-                        <img src="./assets/images/css-logo.png" alt="" />
-                    </div>
+                <div class="service-img">
+                    <img src="./assets/images/css-logo.png" alt="" />
+                </div>
             </div>
+        </div>  
 
+        <div class="column">
             <div class="service">
                 <h3>WordPress</h3>
-                    <div class="service-img">
-                        <img src="./assets/images/wordpress-logo.jpg" alt="" />
-                    </div>
+                <div class="service-img">
+                    <img src="./assets/images/wordpress-logo.jpg" alt="" />
+                </div>
             </div>
-    </section>
+        </div>
+
+        <div class="column">
+            <div class="service">
+                <h3>JavaScript</h3>
+                <div class="service-img">
+                    <img src="./assets/images/javascript-logo.png" alt="" />
+                </div>
+            </div> 
+        </div>   
+
+        <div class="column">
+            <div class="service">
+                <h3>JQuery</h3>
+                <div class="service-img">
+                    <img src="./assets/images/jquery-logo.png" alt="" />
+                </div>
+            </div> 
+        </div>   
+    </div>
+
     <!-- End My Services -->
 
     <!-- My Projects section -->
     <section id="my-projects">
-        <div class="flex-row">
             <h2 class="section-title secondary-border">
                 My Projects
             </h2>
-        </div>
             <!-- first project -->
-        <div class="projects">
+        <div class="column">
             <div class="project-main">
-               <a href="https://jamwil1226.github.io/run-buddy">
-                    <img src="./assets/images/run-buddy-project.png" alt="Run Buddy Home Page.">
+               <a href="https://jamwil1226.github.io/space-explorer">
+                    <img src="./assets/images/space-explorer.png" alt="Space Explorer Web Page.">
                 </a>
                 <div class="project-main-info">
-                    <h3 class="project-name">Run Buddy</h3>
-                    <p>One of my projects through UCF Coding Bootcamp to build a website that showcases my HTML and CSS skills.</p>
+                    <h3 class="project-main-name">Space Explorer</h3>
+                    <p>Group Project for UCF Coding Bootcamp. This website was built with 4 other teammates using HTML, CSS, Bulma framework, JavaScript, and JQuery. We used 2 APIs and local storage to create user interactivity.</p>
                 </div>
             </div>
+        </div>
 
             <!-- second project -->
-            <div class="container">
-                <article class="project">
-                    <a href="https://hugsfrommimi.com">
-                        <img src="./assets/images/hugs-from-mimi-project.png" alt="Hugs from Mimi Home Page.">
-                    </a>
-                    <div class="project-info">
-                        <h3 class="project-name">Hugs from Mimi</h3>
-                        <p>My first website built through WordPress for my non-profit organization. This website helped me discover my passion for web development.</p>
-                    </div>
-                </article>
+            <div class="columns">
+                <div class="column">
+                    <article class="project">
+                        <a href="https://hugsfrommimi.com">
+                            <img src="./assets/images/hugs-from-mimi-project.png" alt="Hugs from Mimi Home Page.">
+                        </a>
+                        <div class="project-info">
+                            <h3 class="project-name has-text-centered">Hugs from Mimi</h3>
+                            <p class="has-text-centered">My first website built through WordPress for my non-profit organization. This website helped me discover my passion for web development.</p>
+                        </div>
+                    </article>
+                </div>
                 
                 <!-- third project -->
-                <article class="project">
-                    <a href="https://homesafetycoach.com">
-                        <img src="./assets/images/home-safety-coach-project.png" alt="Home Safety Coach Home Page.">
-                    </a>
-                    <div class="project-info">
-                        <h3 class="project-name">Home Safety Coach</h3>
-                        <p>Taking my self-taught education in web development and experience in building the Hugs from Mimi website as well as a travel blog, I turned my career in physical therapy into a way of helping the elderly stay safe at home and reduce their risk of falling.</p>
-                    </div>
-                </article>
+                <div class="column">
+                    <article class="project">
+                        <a href="https://homesafetycoach.com">
+                            <img src="./assets/images/home-safety-coach-project.png" alt="Home Safety Coach Home Page.">
+                        </a>
+                        <div class="project-info">
+                            <h3 class="project-name">Home Safety Coach</h3>
+                            <p class="has-text-centered">Taking my self-taught education in web development and experience in building the Hugs from Mimi website as well as a travel blog, I turned my career in physical therapy into a way of helping the elderly stay safe at home and reduce their risk of falling.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="column">
+                    <article class="project">
+                        <a href="https://jamwil1226.github.io/run-buddy">
+                            <img src="./assets/images/run-buddy-project.png" alt="Run Buddy Home Page.">
+                        </a>
+                        <div class="project-info">
+                            <h3 class="project-name">Run Buddy</h3>
+                            <p class="has-text-centered">One of my projects through UCF Coding Bootcamp to build a website that showcases my HTML and CSS skills.</p>
+                        </div>
+                    </article>
+                 </div>
             </div>
-        </div>
+
     </section>
     <!-- end My Projects -->
 
     <!-- Contact Me Section -->
-    <section id="contact-me" class="contact">
-        <div class="flex-row">
+    
+    <div class="column">
+        <section id="contact-me" class="contact">
             <h2 class="section-title secondary-border">
                 Contact Me
             </h2>
-        </div>  
-
-            <div class="contact-info">
+        </section>
+    </div>
+    
+    <div class="columns has-text-centered">
+        <div class="column">    
+            <section class="contact-info">
                 <div class="contact">
                     <h3>(386) 589-0126</h3>
                 </div>
-
-                <div class="contact">
-                    <h3><a href="mailto:jamwil1226@yahoo.com">jamwil1226@yahoo.com</a>
-                    </h3>
-                </div>
-
-                <div class="contact">
-                    <h3><a href="https://github.com/jamwil1226">GitHub</a>
-                    </h3>
-            </div>
+            </section>
         </div>
-    </section>
+
+        <div class="column">
+            <section class="contact-info">
+                <h3><a href="mailto:jamwil1226@yahoo.com">jamwil1226@yahoo.com</a>
+                </h3>
+            </section>
+        </div>
+
+        <div class="column">
+            <section class="contact-info">
+                <h3><a href="https://github.com/jamwil1226">GitHub</a>
+                </h3>
+            </section>
+        </div>
+
+        <div class="column">
+            <section class="contact-info">
+                <h3><a href="http://www.linkedin.com/in/jamiewilliams1226">LinkedIn</a>
+                </h3>
+            </section>
+        </div>
+    </div>
     <!-- end Contact Me -->
 
     <!-- footer starts -->
     <footer>
-        <h2>
-            💘 Designed by Jamie Williams 💘
-        </h2>
+        <div class="column is-centered">
+            <h4 class="has-text-centered">
+                Designed by Jamie Williams
+            </h4>
+        </div>
     </footer>
     <!-- footer ends -->
 </body>
